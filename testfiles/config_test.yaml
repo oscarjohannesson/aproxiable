@@ -1,0 +1,11 @@
+aproxiableVersion: v1
+listeningAddr: "http://localhost:9191"
+reverse-proxys:
+  - name: "test1"
+    listeningPath: "/test1"
+    targetAddr: "http://localhost:9191/test2"
+  - name: "test2"
+    listeningPath:  "/test2"
+    targetAddr:   "http://localhost:9191/"
+
+

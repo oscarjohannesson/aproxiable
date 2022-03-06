@@ -1,0 +1,6 @@
+aproxiableVersion: v1
+listeningAddr: "localhost:9191"
+reverse-proxys:
+  - name: "test"
+    listeningPath: "/google"
+    targetAddr: "/test
